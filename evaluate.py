@@ -6,7 +6,7 @@ import matplotlib.pyplot as pyplot
 import pickle
 from matplotlib import style
 
-data = pd.read_csv("training_data.csv", nrows=100)
+data = pd.read_csv("training_data.csv")
 data = data[["result", "diff"]]
 # result: 1 = white wins, 0 = black wins
 # diff: rating of white - rating of black
