@@ -51,6 +51,6 @@ for x in range(len(predictions)):
 p = "diff"
 style.use("ggplot")
 pyplot.scatter(data[p], data["result"])
-pyplot.xlabel(p)
+pyplot.xlabel("Rating Difference")
 pyplot.ylabel("Result")
 pyplot.show()
